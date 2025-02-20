@@ -4,6 +4,10 @@
 
 <h1>Messages</h1>
 
+<div id= "element_id">
+<%= render partial: "messages/form", locals: {message: Message.new }%>
+</div>
+
 <div id="messages">
   <% @messages.each do |message| %>
     <%= render message %>
