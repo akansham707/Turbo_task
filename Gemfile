@@ -58,3 +58,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "faker", "~> 3.5"
+
+gem "tailwindcss-rails", "~> 4.1"
